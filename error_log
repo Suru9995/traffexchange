@@ -1,0 +1,1 @@
+[08-Mar-2018 17:20:24 Asia/Kolkata] PHP Fatal error:  Call to undefined method Twitter_model::get_tweets() in /home/creatrpl/public_html/projects/traffexchange/application/controllers/Twitter_data.php on line 221
