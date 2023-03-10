@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.add_form
+{
+	width:50% !important;
+}
+
+.bor
+{
+	border:3px solid #333;
+}
+
+@media (max-width:767px)
+{
+	.wel_div
+	{
+		width:90% !important;
+
+	}
+	.add_form
+	{
+		width:90%;
+	}
+	.wel
+	{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	
+	.lead
+	{
+		font-size:14px !important;
+	}
+	
+	
+}
+@media (min-width:768px) and (max-width:992px)
+{
+	.wel
+	{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	.wel img
+	{
+		height:70% !important;
+	}
+}

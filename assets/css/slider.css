@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+p,h2
+{
+	padding:0 !important;
+}
+.slider_div,.join_div
+{
+	background-color:#000;
+	color:#fff;
+	padding:20px 0 !important;
+	padding-bottom:30px !important;
+}
+.slider_div h2
+{
+	font-size:35px;
+	color:#fff;
+}
+.slider_div p
+{
+	font-family:arial;
+	font-size:20px;
+	color:#ccc;
+}
+.slider_div .image
+{
+	padding-left:90px;
+	padding-top:20px;
+}
+.slider_div .image img
+{
+	width:100%;
+}
+
+.join_div .join
+{
+	border-radius:5px;
+	padding:20px 70px;
+	color:#000;
+	background-color:#A9FD00;
+	font-size:20px;
+}
+
+
+@media (max-width:767px)
+{
+	.join_div
+	{
+		text-align:center;
+		
+	}
+	.join_div .join
+	{
+		padding:20px 40px; font-size:12px;
+	}
+	.slider_div .image
+	{
+		align:center;
+	}
+}
+
+@media (min-width:768px) and (max-width:990px)
+{
+	.join_div
+	{
+		text-align:center;
+	}
+	.slider_div .image
+	{
+		text-align:center;
+	}
+	.slider_div .image
+	{
+		
+	}
+	
+}

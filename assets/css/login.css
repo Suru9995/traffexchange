@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.login p,font
+{
+	font-size:24px;
+	font-weight:lighter;
+}
+.login a
+{
+	display:inline;
+	color:#fff;
+	border-radius:30px;
+	font-size:20px;
+}
+.login .btn_login
+{
+	padding:15px 60px;
+	background:linear-gradient(135deg,#518FCE,skyblue,#518FCE,skyblue,#518FCE);
+	box-shadow:1px 10px 5px #ccc;
+}
+
+
+.login .btn_login:hover,.login .btn_reg:hover
+{
+	box-shadow:1px 6px 5px #ccc;
+	padding-top:10px !important;
+	padding-bottom:20px !important;
+}
+
+
+
+.login .btn_reg
+{
+	padding:15px 60px;
+	background:linear-gradient(135deg,#666,#ccc,#666,#ccc,#666);
+	box-shadow:1px 10px 5px #ccc;
+}
+

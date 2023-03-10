@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.features
+{
+	background-color:#ECEFF1;
+}
+.features .container .row
+{
+	margin:0px 80px;
+	padding:15px 0px !important;
+}
+
+.features .container .row img
+{
+	border-radius:50%;
+}
+
+.features i
+{
+	font-size:60px;
+}
+
+@media (max-width:767px)
+{
+	.features
+	{
+		text-align:center;
+	}
+}

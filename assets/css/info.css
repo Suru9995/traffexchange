@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.info
+{
+	background-color:#ECEFF1;
+}
+.info i
+{
+	color:#09F;
+	font-size:80px;
+}

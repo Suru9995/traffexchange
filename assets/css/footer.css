@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+.footer
+{
+	//background:url(../image/4146409-brick-wall-wallpaper.jpg);
+	background-color:#222;
+	background-size:contain;
+	color:#fff;
+	background-attachment:fixed;
+}
+.footer .tbl_info tr td:first-child
+{
+	text-align:center;
+}
+.footer .tbl_info i,.footer .tbl_extra i
+{
+	font-size:25px;
+}
+.footer .tbl_extra tr td
+{
+	text-align:center;
+	width:25%;
+}
+
+
+@media (min-width:768px) and (max-width:1023px)
+{
+	.tbl_info
+	{
+		margin-left:auto;
+		margin-right:auto;
+		border-bottom:2px solid gray;
+	}
+	.tbl_extra
+	{
+		width:80%;
+	}
+	
+}
+
+@media (max-width:767px)
+{
+	.tbl_info
+	{
+		margin-left:auto;
+		margin-right:auto;
+		border-bottom:2px solid gray;
+	}
+	.tbl_extra
+	{
+		width:100%;
+	}
+}

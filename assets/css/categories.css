@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.categories_div
+{
+	padding-top:30px !important;
+	background-color:#eee;
+	
+}
+.categories_div .cat_image
+{
+	text-align:center;
+	//border:1px solid red;
+}
+
+.categories_div .cat_image img
+{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	border:1px solid black;
+}

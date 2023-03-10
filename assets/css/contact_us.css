@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background:none !important;}
+.contact_main
+{
+	background:url(../image/background/contact_background.png);
+		background-size:cover;
+	height:500px;
+	position:relative;
+		text-align:center;
+}
+
+.privacy_main
+{
+	background:url(../image/background/privacy_background.jpg);
+		background-size:cover;
+	height:500px;
+	position:relative;
+		text-align:center;
+}
+
+
+.contact_text
+{
+	width:100%;
+	position:absolute;
+	top:50%;
+	left:0;
+	transform:translateY(-50%);
+}
+
+.contact_text h1
+{
+	font-size:55px;
+	color:#fff;
+}
+.contact_text p
+{
+	font-size:20px;
+	color:#fff;
+	padding:0 20%;
+	padding-top:15px;
+}
+
+.contact
+{
+	padding-top:20px;
+	text-align:center;	
+}
+
+.contact h3{
+	margin-bottom:20px;	
+}
+
+.txt_box{
+	margin-bottom:10px;	
+}
+
+.select_box select
+{
+	height:40px;	
+}
+
+.select_box
+{
+	margin-bottom:10px;			
+}
+
+.txt_box input
+{
+	height:40px;	
+}
+
+.about_main
+{
+	background:url(../image/background/abt_background.jpg);
+	background-size:cover;
+}
+.abt_help
+{
+	background-color:#fff;
+}
+
+
+@media(max-width:767px)
+{
+	.txt_box2{
+		margin-top:10px !important;
+	}
+	.abt_help
+	{
+		text-align:center !important;
+	}
+	.abt_help img
+	{
+		height:200px; width:200px;
+	}
+	.abt_help h3
+	{
+		margin-top:50px;
+	}
+	.contact_text p
+	{
+		font-size:16px;
+	}
+	.abt_how{ padding:5px !important; }
+}
+
+
+@media(min-width:768px) and (max-width:1024px)
+{
+	.txt_box2{
+		margin-top:10px !important;
+	}	
+}

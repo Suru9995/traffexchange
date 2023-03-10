@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.fb_btn{
+	width:100px;
+	padding:10px;
+	border-radius:8px;	
+}
+
+.fb_btn a{
+	color:#fff;	
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.dev
+{
+//	background:url(../image/A_Website_Background.png);
+	//background-position:center;
+	//background-attachment:fixed;
+	//background-size:cover;
+}
+.dev img
+{
+	margin:auto;
+	width:150px !important;
+	height:150px;
+	border-radius:50%;
+	border:1px solid #000;
+}
+.dev i
+{
+	font-size:20px;
+	color:rgba(0,0,0,.5);
+}
+
+.owl-carousel2 .owl-prev,.owl-carousel2 .owl-next
+{
+	background:none !important;
+}
